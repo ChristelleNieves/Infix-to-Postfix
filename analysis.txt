@@ -1,0 +1,7 @@
+Function name: clear()
+Worst case runtime: O(N)
+Analysis: I used a vector as the underlying structure for the stack in my program, therefore my clear function simply
+	calls the vector clear function to remove all the elements in the stack. The standard vector clear function runs
+	in O(N) time because it runs through each element in the vector and deletes them one by one. Because this function
+	is made to delete every element in the vector, it will always run in O(N) time, where N represents the number of
+	elements stored in the vector.
